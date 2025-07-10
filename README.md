@@ -17,6 +17,8 @@ pip install -r requirements.txt
 
 ## Preprocess dataset
 
+The dataset for this project utilizes a Dirichlet parameter-based partitioning method to allocate client data. The data feature partitioning of the dataset are implemented in the /data/data_preprocess.py file. Before the project runs, feature extraction processing needs to be performed on the data in the dataset.
+
 
 ## References
 
