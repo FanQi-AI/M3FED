@@ -6,7 +6,7 @@
 </div>
 <p align="center"><em>The network architecture of the proposed framework. Client side: Localized Training Via Dual-level Optimization. Server-side: Cross Modal Meta Aggregation. 𝑓𝜃 is the meta learner, and 𝐺 is the shared consensus operator.</em></p>
 
-The download link for the paper is [her](https://dl.acm.org/doi/abs/10.1145/3664647.3681510)
+The download link for the paper is [here](https://dl.acm.org/doi/abs/10.1145/3664647.3681510).
 
 ## Installation Guide
 
