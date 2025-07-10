@@ -8,9 +8,9 @@
 
 The download link for the paper is [here](https://dl.acm.org/doi/abs/10.1145/3664647.3681510).
 
-## Installation Guide
 
-### Environment
+
+## Environment
  We manage environments with Conda. To set up the environment, follow these steps:
 ```
 pip install -r requirements.txt
