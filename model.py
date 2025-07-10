@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 
 def z_score_normalize(data):
-    """Z-score 标准化"""
+    """Z-score """
     mean = data.mean(dim=0, keepdim=True)
     std = data.std(dim=0, keepdim=True)
     normalized_data = (data - mean) / (std + 1e-10)  
