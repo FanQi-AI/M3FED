@@ -187,15 +187,15 @@ def aggregate_pro_parameters(client_params):
     num_clients = len(client_params)
     weights = torch.zeros(num_clients)
 
-    # 
+     
     for i in range(num_clients):
         for j in range(num_clients):
             if i != j:
-                #  Frobenius 范数
+                
                 distance = torch.norm(client_params[i] - client_params[j], p='fro')
                 weights[i] += 1 / (distance.cpu() + 1e-10)  # 
 
-    # 归一化权重
+    
     weights /= weights.sum()
 
     aggregated_params = sum(w * p for w, p in zip(weights, client_params))
